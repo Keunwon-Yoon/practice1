@@ -1,16 +1,242 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="utf-8">
-    <head>
-        <style>
-            .container {
-                width: 100px;
-                height: 200px;
-                background-color: aqua;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">안녕하세요!</div>
-    </body>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta property="og:type" />
+		<meta property="og:site_name" />
+		<meta property="og:title" />
+		<meta property="og:description" />
+		<meta property="og:image" />
+
+		<title></title>
+
+		<link rel="stylesheet" />
+
+		<link rel="icon" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+		<link rel="shortcut icon" href="pencil.png">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+
+		<style>
+			.menu {
+				width: auto;
+				height: 65px;
+				background-color: rgb(224, 224, 221);
+				flex-direction: row;
+				flex-wrap: wrap;
+				margin-bottom: 5px;
+				font-family: 'Nanum Myeongjo', serif;
+			}
+			.item {
+				float: left;
+				margin: 15px;
+				font-family: 'Nanum Myeongjo', serif;
+			}
+			.head-title {
+				width: auto;
+				height: 300px;
+				background-color: black;
+				font-family: 'Nanum Myeongjo', serif;
+			}
+			.container-1 {
+				width: 150px;
+				height: 100px;
+				border: 1px solid rgb(159, 159, 159);
+				padding: 10px;
+				margin: 15px;
+				font-family: 'Nanum Myeongjo', serif;
+			}
+			.top {
+				position: fixed; right: 50px; bottom: 50px;">
+				font-family: 'Nanum Myeongjo', serif;
+			}
+			.navi {
+				width: auto;
+				padding-left: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="menu">
+			<a class="item" href="#">
+				<button type="button" class="btn btn-outline-secondary">HOME</button>
+			</a>
+			<a class="item" href="#experience">
+				<button type="button" class="btn btn-outline-secondary">경력</button>
+			</a>
+			<a class="item" href="#hobby">
+				<button type="button" class="btn btn-outline-secondary">취미</button>
+			</a>
+			<a class="item" href="#etc">
+				<button type="button" class="btn btn-outline-secondary">기타</button>
+			</a>
+		</div>
+		<main class="container">
+			<div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+				<div class="col-md-10 px-0">
+					<h1 style="color: ghostwhite; padding: 40px;">
+						Bootstrap을 활용해 퍼스널<br />브랜딩 페이지 만들기
+					</h1>
+					<p style="color: ghostwhite; padding-left: 40px;">
+						다양한 태그와 라이브러리를 사용하여 자유롭게 표현해보세요
+					</p>
+				</div>
+			</div>
+
+			<div class="row mb-3 bg-secondary-subtle text-emphasis-secondary position-sticky">
+				<div class="col-md-12">
+					<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-100 flex-grow-1" style="float: left; margin: 10px;">
+						<div class="col p-4 d-flex flex-column">
+							<h3 class="mb-0">경력</h3>
+							<a class="stretched-link">자세히 보기</a>
+						</div>
+					</div>
+					<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-100 flex-grow-1" style="float: left; margin: 10px;">
+						<div class="col p-4 d-flex flex-column">
+							<h3 class="mb-0">취미</h3>
+							<a class="stretched-link">자세히 보기</a>
+						</div>
+					</div>
+					<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-100 flex-grow-1" style="float: left; margin: 10px;">
+						<div class="col p-4 d-flex flex-column">
+							<h3 class="mb-0">기타</h3>
+							<a class="stretched-link">자세히 보기</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row g-5" style="clear: both;">
+				<div class="col-md-8">
+					<br />
+					<article id="experience" class="bootstrap-post">
+						<h2 class="bootstrap-post-title mb-1">🧳 경력</h2>
+						<ul>
+							<li>
+								<h3>A</h3>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>B</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>C</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>D</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>E</h4>
+								<h4>- abcde</h4>
+							</li>
+						</ul>
+						<ol>
+							<li>
+								<h3>A</h3>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>B</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>C</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>D</h4>
+								<h4>- abcde</h4>
+							</li>
+							<li>
+								<h4>E</h4>
+								<h4>- abcde</h4>
+							</li>
+						</ol>
+					</article>
+
+					<article id="hobby" class="bootstrap-post">
+						<br /><br />
+						<h2 class="bootstrap-post-title mb-1">🧗🏻‍♀️ 취미</h2>
+						<ol>
+							<li>
+								<h4>1번 취미</h4>
+							</li>
+							<li>
+								<h4>2번 취미</h4>
+							</li>
+							<li>
+								<h4>3번 취미</h4>
+							</li>
+							<li>
+								<h4>4번 취미</h4>
+							</li>
+							<li>
+								<h4>5번 취미</h4>
+							</li>
+						</ol>
+						
+					</article>
+
+					<article id="etc" class="bootstrap-post">
+						<br /><br />
+						<h2 class="bootstrap-post-title mb-1">😀 기타</h2>
+						<h3>아직 더 표현하고 싶은게 있으신가요?</h3>
+						<p>아직도<mark>다양한 태그</mark>들이 남았답니다.</p>
+						<img src="samsung_logo.jpg" width="500px">
+						<img src="wine.PNG" width="200px">
+						<p>
+							<a
+								href="https://developer.mozilla.org/ko/docs/Web/HTML/Element"
+								target="_blank"
+								>여기에서</a
+							>
+							더 다양한 태그들을 확인해보시고 간단하게 사용해보세요
+						</p>
+						<p>
+							이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면?
+							<a href="https://getbootstrap.com" target="_blank">
+								부스트스트랩 문서를 참고해보세요
+							</a>
+						</p>
+					</article>
+				</div>
+
+				<div class="col-md-4">
+					<div class="position-sticky" style="top: 2rem">
+						<div class="p-4 mb-3 bg-light rounded">
+							<h4>About</h4>
+						</div>
+
+						<div class="p-4">
+							<h4>Social</h4>
+							<div><a href="mailto: yoriginal@naver.com" target="_blank">메일 보내기</a></div>
+							<div><a href="tel:010-5392-3156" target="_blank">전화 걸기</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="top">
+				<a href="#">
+					<img src="up.png" width="20px">
+				</a>
+			</button>
+		</main>
+
+		<footer class="bootstrap-footer">
+			<p>
+				template built for
+				<a href="https://getbootstrap.com/">Bootstrap</a>
+			</p>
+		</footer>
+	</body>
 </html>
